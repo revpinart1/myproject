@@ -1,4 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<p>welcome</p>
+<div class="container text-center mt-5" ><p>welcome to home page</p></div>
+
 @endsection

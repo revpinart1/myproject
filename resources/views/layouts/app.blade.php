@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html >
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -13,21 +13,31 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <style>
+        *{
+            font-family: "Playwrite AU SA", cursive;
+           
+        }
+        body{
+            background-color:Gainsboro;
+        }
         a{
-            color:white;
+            color: white;
+            text-decoration: none;
+            
         }
     </style>
-</head>
-<body>
-<header>
-    <nav class="navbar" style="background-color:pink;">
-        <div class="container">
+</head >
+<body dir="rtl">
+<header >
+    <nav class="navbar" style="background-color:CadetBlue;">
+        <div class="container mt-2">
             <ul class="list-inline">
                 <li class="list-inline-item p-1"><a href="/">home page</a></li>
                 <li class="list-inline-item p-1"><a href="{{route('aboutus')}}">about</a></li>
@@ -38,13 +48,13 @@
     </nav>
 </header>
 
-<main>
+<main >
  @yield('content')    
 </main>
 
 
 <footer>
-copyright
+
 </footer>
 
   

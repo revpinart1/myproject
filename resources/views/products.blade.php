@@ -1,4 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<p>product page </p>
+<div class="container text-center mt-5" ><p>product page </p></div>
+
 @endsection
