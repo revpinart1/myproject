@@ -41,7 +41,7 @@
             <ul class="list-inline">
                 <li class="list-inline-item p-1"><a href="/">home page</a></li>
                 <li class="list-inline-item p-1"><a href="{{route('aboutus')}}">about</a></li>
-                <li class="list-inline-item p-1"><a href="{{route('products')}}">products</a></li>
+                <li class="list-inline-item p-1"><a href="{{route('product')}}">products</a></li>
                 <li class="list-inline-item p-1"><a href="{{route('callus')}}">contact</a></li>
             </ul>
         </div>
